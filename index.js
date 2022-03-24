@@ -41,7 +41,7 @@ function snakeLader(diceNumber) {
     return `Winner Winner Chicken Dinner${i}`;
   }
 
-  /////////leadder//////////
+  /////////ladder logic//////////
   if (arr[i] == 10) {
     arr[i] = 22;
   }
@@ -58,7 +58,7 @@ function snakeLader(diceNumber) {
     arr[i] = 88;
   }
 
-  /////////snake/////////////
+  /////////snake logic/////////////
 
   if (arr[i] == 33) {
     arr[i] = 20;
